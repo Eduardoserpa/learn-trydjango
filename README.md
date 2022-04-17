@@ -1,2 +1,2 @@
 # learn-trydjango
-Repository for studying Django basics from a TryDjango tutorial from freeCodeCamp.org YouTube channel.
+Repository for studying Django basics with a TryDjango tutorial from freeCodeCamp.org YouTube channel.
