@@ -44,7 +44,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV='/run/media/eduardoserpa/08AA76D8AA76C22C/workspace/trydjango'
+VIRTUAL_ENV='/run/media/eduardoserpa/08AA76D8AA76C22C/devgit/trydjango'
 if ([ "$OSTYPE" = "cygwin" ] || [ "$OSTYPE" = "msys" ]) && $(command -v cygpath &> /dev/null) ; then
     VIRTUAL_ENV=$(cygpath -u "$VIRTUAL_ENV")
 fi

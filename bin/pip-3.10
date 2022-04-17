@@ -1,4 +1,4 @@
-#!/run/media/eduardoserpa/08AA76D8AA76C22C/workspace/trydjango/bin/python
+#!/run/media/eduardoserpa/08AA76D8AA76C22C/devgit/trydjango/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys

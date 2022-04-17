@@ -1,6 +1,6 @@
 # Setting all environment variables for the venv
 let path-name = (if ((sys).host.name == "Windows") { "Path" } { "PATH" })
-let virtual-env = "/run/media/eduardoserpa/08AA76D8AA76C22C/workspace/trydjango"
+let virtual-env = "/run/media/eduardoserpa/08AA76D8AA76C22C/devgit/trydjango"
 let bin = "bin"
 let path-sep = ":"
 
@@ -38,4 +38,4 @@ let-env PROMPT_COMMAND = $new_prompt
 # We are using alias as the function definitions because only aliases can be
 # removed from the scope
 alias pydoc = python -m pydoc
-alias deactivate = source "/run/media/eduardoserpa/08AA76D8AA76C22C/workspace/trydjango/bin/deactivate.nu"
+alias deactivate = source "/run/media/eduardoserpa/08AA76D8AA76C22C/devgit/trydjango/bin/deactivate.nu"
