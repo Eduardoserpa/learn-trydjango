@@ -1,2 +1,9 @@
-<h1>Hello World!</h1>
+{%extends 'base.html' %}
+
+{% block content %}
+<h1>Hello World to you, {{request.user}}!</h1>
+<!–– This is the title tag on the tab bar ––>
 <p>This is an example template for our home page. Looking cool, Joker!</p>
+<p>{{request.user.is_autheticated}}</p>
+<p>The user is autheticated </p>
+{% endblock content %}
